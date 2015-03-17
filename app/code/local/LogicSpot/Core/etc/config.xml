@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LogicSpot_Core>
+            <version>0.1.0</version>
+        </LogicSpot_Core>
+    </modules>
+    <global>
+        <helpers>
+            <logicspot_core>
+                <class>LogicSpot_Core_Helper</class>
+            </logicspot_core>
+        </helpers>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <extensions>
+                    <file>logicspot/core.xml</file>
+                </extensions>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

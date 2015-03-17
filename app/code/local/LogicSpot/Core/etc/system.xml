@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <logicspot_core>
+            <class>logicspot-tab</class>
+            <label>LogicSpot</label>
+            <sort_order>100</sort_order>
+        </logicspot_core>
+    </tabs>
+    <sections>
+    </sections>
+</config>
