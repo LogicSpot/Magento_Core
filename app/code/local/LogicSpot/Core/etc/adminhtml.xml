@@ -5,21 +5,6 @@
             <all>
                 <title>Allow Everything</title>
             </all>
-            <admin>
-                <children>
-                    <system>
-                        <children>
-                            <config>
-                                <children>
-                                    <logicspot_core>
-                                        <title>LogicSpot Modules</title>
-                                    </logicspot_core>
-                                </children>
-                            </config>
-                        </children>
-                    </system>
-                </children>
-            </admin>
         </resources>
     </acl>
 </config>
