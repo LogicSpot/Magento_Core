@@ -1,0 +1,16 @@
+{
+  "name": "logicspot/core",
+  "description": "Core module for all LogicSpot modules",
+  "type": "magento-module",
+  "homepage": "http://logicspot.com",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "LogicSpot",
+      "email": "support@logicspot.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  }
+}

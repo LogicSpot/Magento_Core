@@ -1,0 +1,5 @@
+## Modman Module LogicSpot Core
+app/code/local/LogicSpot/Core/*                             app/code/local/LogicSpot/Core
+app/design/adminhtml/default/default/layout/logicspot/*     app/design/adminhtml/default/default/layout/logicspot
+app/etc/modules/*                                           app/etc/modules/
+skin/adminhtml/default/default/logicspot/core/*             skin/adminhtml/default/default/logicspot/core
