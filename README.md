@@ -9,8 +9,11 @@ It also contains number of small fixes present in Magento
 ##Installation
 There are 3 ways of installing Core module:
 
-- use [modman] script
+- use [modman] script - run modman clone {{github url}}
 - use [magento-composer-installer] composer wrapper for Magento modules
+
+    Add the "logicspot-core" to your project requirements, and run composer update
+    
 - Download module files and unpack them into your Magento install root directory
  
 After installing module, logout and login into admin and clear Magento cache.
