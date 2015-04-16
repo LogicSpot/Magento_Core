@@ -29,6 +29,17 @@
             </logicspot_core>
         </helpers>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <LogicSpot_Core before="Mage_Adminhtml">LogicSpot_Core</LogicSpot_Core>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
     <adminhtml>
         <layout>
             <updates>

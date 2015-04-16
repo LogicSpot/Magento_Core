@@ -21,6 +21,9 @@
         <LogicSpot_Core>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml />
+            </depends>
         </LogicSpot_Core>
     </modules>
 </config>
