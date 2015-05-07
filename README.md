@@ -5,17 +5,17 @@ It also contains number of small fixes present in Magento
 
 ##Features
 - Fix for New Relic Javascript problem occurring on Magento Admin sites when trying to load template in Transactional Emails template screen.
- 
+
 ##Installation
 There are 3 ways of installing Core module:
 
-- use [modman] script - run modman clone https://github.com/logicspot/core
+- use [modman] script - run modman clone https://github.com/LogicSpot/Magento_Core
 - use [magento-composer-installer] composer wrapper for Magento modules
 
-    Add the "logicspot/core" to your project requirements, and run composer update
-    
+    Add the "logicspot/magento_core" to your project requirements, and run composer update
+
 - Download module files and unpack them into your Magento install root directory
- 
+
 After installing module, logout and login into admin and clear Magento cache.
 
 ##License
