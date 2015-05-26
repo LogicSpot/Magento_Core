@@ -28,6 +28,11 @@
                 <class>LogicSpot_Core_Helper</class>
             </logicspot_core>
         </helpers>
+		<models>
+			<logicspot_core>
+				<class>LogicSpot_Core_Model</class>
+			</logicspot_core>
+		</models>
     </global>
     <admin>
         <routers>
