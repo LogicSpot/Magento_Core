@@ -5,6 +5,7 @@ It also contains number of small fixes present in Magento
 
 ##Features
 - Fix for New Relic Javascript problem occurring on Magento Admin sites when trying to load template in Transactional Emails template screen.
+- Fix for merging css with background images error
 
 ##Installation
 There are 3 ways of installing Core module:

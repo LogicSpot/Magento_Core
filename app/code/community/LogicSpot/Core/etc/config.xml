@@ -19,7 +19,7 @@
 <config>
     <modules>
         <LogicSpot_Core>
-            <version>0.1.1</version>
+            <version>0.1.2</version>
         </LogicSpot_Core>
     </modules>
     <global>
@@ -32,6 +32,11 @@
 			<logicspot_core>
 				<class>LogicSpot_Core_Model</class>
 			</logicspot_core>
+			<core>
+				<rewrite>
+					<design_package>LogicSpot_Core_Model_Design_Package</design_package>
+				</rewrite>
+			</core>
 		</models>
     </global>
     <admin>
