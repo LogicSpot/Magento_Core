@@ -53,18 +53,18 @@
     <adminhtml>
         <layout>
             <updates>
-                <core>
+                <logicspot_core>
                     <file>logicspot/core.xml</file>
-                </core>
+                </logicspot_core>
             </updates>
         </layout>
     </adminhtml>
     <frontend>
         <layout>
             <updates>
-                <core>
+                <logicspot_core>
                     <file>logicspot/core.xml</file>
-                </core>
+                </logicspot_core>
             </updates>
         </layout>
         <routers>
