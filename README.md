@@ -6,6 +6,7 @@ It also contains number of small fixes present in Magento
 ##Features
 - Fix for New Relic Javascript problem occurring on Magento Admin sites when trying to load template in Transactional Emails template screen.
 - Fix for merging css with background images error
+- Allows to disable the Magento homepage (useful for Magento subfolder installation)
 
 ##Installation
 There are 3 ways of installing Core module:
@@ -18,6 +19,10 @@ There are 3 ways of installing Core module:
 - Download module files and unpack them into your Magento install root directory
 
 After installing module, logout and login into admin and clear Magento cache.
+
+##Usage
+For disabling the homepage access the Magento admin side go to System -> Configuration -> Web tab -> Default Pages section and
+change the "Default Web Url" field to "disable_home"
 
 ##License
 This module is distributed under GNU General Public License v3.0. Full text of the License can be found in LICENSE.txt file

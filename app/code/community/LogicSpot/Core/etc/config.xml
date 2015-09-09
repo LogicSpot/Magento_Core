@@ -28,16 +28,16 @@
                 <class>LogicSpot_Core_Helper</class>
             </logicspot_core>
         </helpers>
-		<models>
-			<logicspot_core>
-				<class>LogicSpot_Core_Model</class>
-			</logicspot_core>
-			<core>
-				<rewrite>
-					<design_package>LogicSpot_Core_Model_Design_Package</design_package>
-				</rewrite>
-			</core>
-		</models>
+        <models>
+            <logicspot_core>
+                <class>LogicSpot_Core_Model</class>
+            </logicspot_core>
+            <core>
+                <rewrite>
+                    <design_package>LogicSpot_Core_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
     </global>
     <admin>
         <routers>
@@ -53,19 +53,28 @@
     <adminhtml>
         <layout>
             <updates>
-                <logicspot_core>
+                <core>
                     <file>logicspot/core.xml</file>
-                </logicspot_core>
+                </core>
             </updates>
         </layout>
     </adminhtml>
     <frontend>
         <layout>
             <updates>
-                <logicspot_core>
+                <core>
                     <file>logicspot/core.xml</file>
-                </logicspot_core>
+                </core>
             </updates>
         </layout>
+        <routers>
+            <index>
+                <use>standard</use>
+                <args>
+                    <frontName>disable_home</frontName>
+                    <module>LogicSpot_Core</module>
+                </args>
+            </index>
+        </routers>
     </frontend>
 </config>
