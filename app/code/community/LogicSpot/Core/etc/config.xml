@@ -19,7 +19,7 @@
 <config>
     <modules>
         <LogicSpot_Core>
-            <version>0.1.5</version>
+            <version>0.1.6</version>
         </LogicSpot_Core>
     </modules>
     <global>
@@ -39,17 +39,6 @@
             </core>
         </models>
     </global>
-    <admin>
-        <routers>
-            <adminhtml>
-                <args>
-                    <modules>
-                        <LogicSpot_Core before="Mage_Adminhtml">LogicSpot_Core</LogicSpot_Core>
-                    </modules>
-                </args>
-            </adminhtml>
-        </routers>
-    </admin>
     <adminhtml>
         <layout>
             <updates>
@@ -68,13 +57,24 @@
             </updates>
         </layout>
         <routers>
-            <index>
+            <disable_home>
                 <use>standard</use>
                 <args>
                     <frontName>disable_home</frontName>
                     <module>LogicSpot_Core</module>
                 </args>
-            </index>
+            </disable_home>
         </routers>
     </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <logicspot_core before="Mage_Adminhtml">LogicSpot_Core_Adminhtml</logicspot_core>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>
