@@ -19,7 +19,7 @@
 <config>
     <modules>
         <LogicSpot_Core>
-            <version>0.1.6</version>
+            <version>1.0.0</version>
         </LogicSpot_Core>
     </modules>
     <global>
