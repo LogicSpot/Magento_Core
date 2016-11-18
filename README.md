@@ -7,6 +7,7 @@ It also contains number of small fixes present in Magento
 - Fix for New Relic Javascript problem occurring on Magento Admin sites when trying to load template in Transactional Emails template screen.
 - Fix for merging css with background images error
 - Allows to disable the Magento homepage (useful for Magento subfolder installation)
+- Fixes the possible timeout in Core Magento Configurable swatches for Mediafallback helper
 
 ##Installation
 There are 3 ways of installing Core module:

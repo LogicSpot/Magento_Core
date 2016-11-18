@@ -19,7 +19,7 @@
 <config>
     <modules>
         <LogicSpot_Core>
-            <version>1.0.1</version>
+            <version>1.1.0</version>
         </LogicSpot_Core>
     </modules>
     <global>
@@ -27,6 +27,11 @@
             <logicspot_core>
                 <class>LogicSpot_Core_Helper</class>
             </logicspot_core>
+            <configurableswatches>
+                <rewrite>
+                    <mediafallback>LogicSpot_Core_Helper_ConfigurableSwatches_Mediafallback</mediafallback>
+                </rewrite>
+            </configurableswatches>
         </helpers>
         <models>
             <logicspot_core>
